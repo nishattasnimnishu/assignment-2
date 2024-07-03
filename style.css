@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    font-family: "Work Sans", sans-serif;
+}
+.btn-primary{
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1rem;
+    background: #E02C6D;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+header{
+    margin: 20px 150px 0px 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+.title img{
+    padding-left: 10px;
+}
+.title span{
+    color: #F948B2;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    display: inline;
+}
+nav li:hover{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: rgb(140, 134, 134, 0.2);
+    padding: 8px;
+}
+nav li a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.img{
+    height: 1.125rem;
+}
+.banner{
+    display: flex;
+}
+.banner-h1{
+    font-size: 2.7rem;
+    color: #0B0223;
+    padding-top: 110px;
+}
+.banner-h1 span{
+    font-size: 4.7rem;
+    color: #F948B2;
+    /* background: linear-gradient(#F948B2);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; */
+}
+.banner-p{
+    font-size: 16px;
+    color: #534C64;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+.banner-img{
+    padding-left: 200px;
+    padding-top: 10px;
+    height: 650px;
+    width: 650px;
+}
+.btn-color{
+    background-color: #4EC5F7;
+    margin-left: 15px;
+}
+main{
+    margin: 0px 150px;
+}
+.section-one{
+    display: flex;
+    margin-top: -80px;
+}
+.gamer-img{
+    margin-top: 20px;
+    width: 550px;
+}
+.gamer-contant{
+    text-align: right;
+    padding-left: 100px;
+}
+.gamer-h1{
+    font-size: 2.375rem;
+    color: #E02C6D;
+}
+.gamer-p1{
+    font-size: 0.875rem;
+    color: #534C64;
+    padding-bottom: 10px;
+    margin-top: -10px;
+}
+.gamer-p2{
+    font-size: 1.1rem;
+    color: #534C64;
+}
+.gamer-h3{
+    font-size: 1.4rem;
+    color: #534C64;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.videos-h1{
+    font-size: 2.7rem;
+    color: #0B0223;
+    text-align: center;
+    padding-top: 50px;
+}
+.videos-h1 span{
+    color: #F948B2;
+}
+.videos-p{
+    color: #534C64;
+    font-size: 0.875rem;
+    text-align: center;
+    margin: -20px 0px 20px 0px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.contant{
+    margin-top: -284px;
+    margin-left: 3px;
+    height: 277px;
+    width: 237px;
+    border-radius: 5%;
+    padding-top: 80px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgb(27, 27, 27, .5);
+    color: #fff;
+    text-align: center;
+}
+.contant i{
+    margin: 10px;
+    font-size: 40px;
+}
+.contant p{
+    margin: 10px;
+    color: #E02C6D;
+    /* font-size: 40px;
+    visibility: hidden;
+    opacity: 0; */
+}
+.videos:hover{
+    cursor: pointer;
+}
+.videos:hover .contant{
+    height: 220px;
+    bottom: 240px;
+    background: #000;
+}
+.videos:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.section-three{
+    display: flex;
+    padding-top: 100px;
+}
+.image1{
+    display: flex;
+    height: 520px;
+    width: 980px;
+}
+.image2{
+    height: 300px;
+    width: 250px;
+    margin-top: -195px;
+    margin-left: 375px;
+}
+.online-contant{
+    padding-top: 100px;
+    padding-left: 190px;
+}
+.online-h1{
+    font-size: 2.1rem;
+    color: #0B0223;
+    padding-top: 90px;
+}
+.online-h1 span{
+    color: #E02C6D;
+}
+.online-p{
+    color: #534C64;
+    font-size: 0.81rem;
+}
+.section-four{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    text-align: center;
+    padding: 60px 0px;
+}
+.item{
+    display: flex;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 50px;
+    gap: 5px;
+}
+.item:hover{
+    border: 1px solid #E02C6D;
+    color: #E02C6D;
+}
+.item img{
+    height: 50px;
+}
+.item p{
+    font-size: .8rem;
+}
+.container{
+    padding: 100px 0px;
+    background-color: #0B0223;
+    color: #fff;
+    text-align: center;
+}
+.title-h{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+.title-h img{
+    padding-left: 10px;
+}
+.title-h span{
+    color: #F948B2;
+}
+.footer-nav {
+    margin: 30px 0px;
+}
+.footer-nav ul{
+    display: grid;
+    grid-template-columns: repeat(6, 7.7rem);
+    justify-content: center;
+}
+.footer-nav ul li{
+    display: inline;
+    list-style: none;
+}
+.footer-nav ul li a{
+    color: #fff;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 1.em;
+}
+.icon-6{
+    display: grid;
+    grid-template-columns: repeat(6, 4.7rem);
+    justify-content: center; 
+}
+.icon-6 a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 50%;
+}
+.icon-6 a i{
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+}
+.icon-6 a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.footer-nav1{
+    margin: 30px 0px;
+}
+.footer-nav1 ul{
+    display: grid;
+    grid-template-columns: repeat(4, 9.9rem);
+    justify-content: center;
+}
+.footer-nav1 ul li{
+    display: inline;
+    list-style: none;
+}
+.footer-nav1 ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .9em;
+}
+.container p{
+    font-size: 0.9rem;
+}
+
+
+
+
+/* reponsive mobile devices */
+
+@media screen and (max-width: 576px) {
+    header,
+    main{
+        margin: 20px;
+    }
+    .btn-primary{
+        font-size: 0.5rem;
+        padding: 10px 20px;
+    }
+    .btn-color{
+        background-color: #4EC5F7;
+        margin-left: 5px;
+    }
+    nav,
+    .section-one{
+        flex-direction: column;
+    }
+    .title{
+        margin-bottom: 5px;
+    }
+    nav li{
+        display: block;
+        padding-top: 30px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .banner,
+    .section-three{
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        padding: 25px 10px 10px 10px;
+        height: 350px;
+        width: 370px;
+    }
+    .banner-contant{
+        padding: 5px 10px 0px 110px;
+    }
+    .banner-h1{
+        font-size: 1.5rem;
+        padding-top: 5px;
+    }
+    .banner-h1 span{
+        font-size: 2.5rem;
+    }
+    .banner-p{
+        font-size: 0.65rem;
+    }
+    .gamer-img{
+        margin-top: 110px;
+        width: 380px;
+    }
+    .gamer-contant{
+        text-align: center;
+        padding: 15px;
+    }
+    .gamer-p2{
+        padding-top: 15px;
+    }
+    .card{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5px;
+    }
+    .videos-h1{
+        font-size: 1.5rem;
+    }
+    .videos-p{
+        font-size: 0.7rem;
+        padding-top: 10px;
+    }
+    .videos{
+        text-align: center;
+    }
+    .videos img{
+        height: 250px;
+        width: 250px;
+    }
+    .videos p{
+        margin: 8px 60px;
+        font-size: 0.7rem;
+    }
+    .contant{
+        margin-top: -251px;
+        margin-left: 58px;
+        height: 244px;
+        width: 244px;
+    }
+    .online-contant{
+        text-align: center;
+        padding: 35px ;
+    }
+    .online-h1{
+        margin-top: -160px;
+        font-size: 1.6rem;
+    }
+   .image1{
+    height: 300px;
+    width: 300px;
+    padding-left: 15px;
+   } 
+   .image2{
+    height: 200px;
+    width: 150px;
+    margin-top: -102px;
+    margin-left: 224px;
+   }
+   .section-four{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.item img{
+    height: 30px;
+}
+.item p{
+    font-weight: bold;
+    font-size: .4rem;
+}
+.container{
+    padding: 30px 35px;
+}
+.footer-nav ul,
+.icon-6,
+.footer-nav1 ul{
+    grid-template-columns: repeat(3, 1fr);
+}
+.icon-6{
+    padding: 0px 70px;
+}
+.icon-6 a{
+    padding: 1px;
+    margin: 5px 20px;
+}
+.icon-6 a i{
+    font-size: 1em;
+}
+.footer-nav ul,
+.footer-nav1 ul{
+    font-size: 0.7rem;
+    padding-right: 30px;
+}
+.container p{
+    padding: 0px 40px;
+}
+}
